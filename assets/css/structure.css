@@ -1,13 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Darker+Grotesque|Nanum+Gothic|Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Londrina+Solid:100,300,400,900|Ultra&display=swap');
 
-/* font-family: 'Darker Grotesque', sans-serif;
-font-family: 'Slabo 27px', serif;
-font-family: 'Nanum Gothic', sans-serif; */
+/* -----------------------------------
+font-family: 'Ultra', serif;
+font-family: 'Londrina Solid', cursive;
+------------------------------------- */
 
-/* blue-grey : #556271 */
-/* light grey : #F4F6F8 */
-/* rouge : #FF6A67 */
-
+/* light-cyan : #9DFFF0*/
+/* blue : #4723D2 */
+/* purple : #8D41F9 */
+/* magenta : #CD27D6 */
+/* gold : #FBB70C */
+/* pink : #FFAEDD */
 
 * {
     padding: 0;
@@ -22,9 +25,9 @@ html {
 }
 
 body {
-    font-family: 'Darker Grotesque', sans-serif;
+    font-family: 'Londrina Solid', cursive;
     font-size: 100%;
-    background-color: #FF6A67;
+    background-color: white; background-image: url(../../images/pinstripe-cyan.svg);
 }
 
 /* --------------- Resets */
@@ -40,37 +43,45 @@ a {
 @media screen and (min-width: 1200px) {
     .container {
         width: 80vw;
-        padding: 5vh;
+        padding: 5vh 5vh 0 5vh;
         margin: 0 auto;
     }
 }
 
 /* ****************************** Texts */
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Slabo 27px', serif;
+h1 {
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 900;
     text-align: center;
     margin-bottom: 2vh;
 }
 
+h2, h3, h4, h5, h6 {
+  font-family: 'Londrina Solid', cursive;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 2vh;
+}
+
 .field-title {
+    margin-top:2vh;
     font-size: 3rem;
     letter-spacing: 2px;
-    opacity: .4;
+    mix-blend-mode: multiply;
+    color: #8d41f9;
 }
 
 .field-subtitle {
     font-size: 2rem;
     letter-spacing: 2px;
-    opacity: .4;
+    color: #8D41F9;
     margin-bottom: 5vh;
 }
 
-.field-body p {
-    margin-bottom: 1.5vh;
-}
 
-.first-content .field-body p {
-    text-align: center;
-    font-size: 1.3rem;
+.first-content .field-body p,
+.first-content .field-body li {
+    font-size: 1.6rem;
 }

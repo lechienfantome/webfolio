@@ -4,13 +4,40 @@
     margin-bottom: 5vh;
     border-radius: 4px;
     padding: 0 5vh;
+    background-color: #9dfff0; background-image: url(../../../images/pinstripe-white.svg);
+    background-attachment: fixed;
 }
 
 .first-content {
-    color: #ffffff;
+    padding: 5vh 0;
 }
 
 .second-content {
+}
+
+
+.field-body {
+  color: #CD27D6;
+  font-weight: 400;
+  line-height: 2rem;
+  margin-bottom: 1.5vh;
+}
+
+.first-content .field-body > *,
+.first-content .field-body li {
+  margin-bottom: 2vh;
+  mix-blend-mode: multiply;
+}
+
+.field-body ul {
+  list-style: disc;
+  list-style-type: disc;
+}
+
+@media screen and (min-width: 1200px) {
+  .field-body {
+    padding: 0 10vw;
+  }
 }
 
 .listing-projects img {

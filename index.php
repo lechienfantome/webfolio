@@ -2,8 +2,8 @@
 <html lang="fr">
     <head>
         <?php include 'partials/head.php'; ?>
-        <title>Titre de la page | Nom du site</title>
-        <meta name="description" content="Description de la page" />
+        <title>webdesign | le chien fantôme</title>
+        <meta name="description" content="Webfolio du webdesigner Christophe gillot" />
     </head>
 
     <body>
