@@ -26,19 +26,22 @@
     <h2 class="field-subtitle">Découvrez mes réalisations</h2>
     <ul class="listing-projects">
         <li>
-            <a title="" data-fslightbox="lechienfantome" href="images/lechienfantome-maddie-acid-large.gif"><img src="images/lechienfantome-maddie-acid-large.gif" alt=""/></a>
+            <a title="" data-fslightbox="lechienfantome" href="images/lechienfantome-maddie-acid-large.gif">
+              <img src="images/lechienfantome-maddie-acid-large.gif" alt=""/>
+            </a>
+            <a title="" href="" class="web-link" target="_blank"></a>
         </li>
         <li>
-            <a title="" data-fslightbox="lechienfantome" href="images/lechienfantome-arbo-large.jpg"><img src="images/lechienfantome-arbo-large.jpg" alt=""/></a>
+            <a title="" data-fslightbox="chxflr" href="https://www.youtube.com/watch?v=btYar5c6F5g" target="_blank">
+              <img src="images/lechienfantome-chxflr-cross-large.gif" alt=""/>
+            </a>
+            <span><a title="" href="" class="web-link" target="_blank"></a></span>
         </li>
         <li>
-            <a title="" href="#" target="_blank"><img src="images/chloe-paolacci-image-1.jpg" alt=""/></a>
+            <a title="" traget="_blank" href="https://www.electricite-robert.com"><img src="images/lechienfantome-robert-small.jpg" alt=""/></a>
         </li>
         <li>
-            <a title="" data-fslightbox href="images/chloe-paolacci-image-1-big.jpg"><img src="images/chloe-paolacci-image-1.jpg" alt=""/></a>
-        </li>
-        <li>
-            <a title="" data-fslightbox href="images/chloe-paolacci-image-1-big.jpg"><img src="images/chloe-paolacci-image-1.jpg" alt=""/></a>
+            <a title="" data-fslightbox="newsletter" href="images/lechienfantome-starfish-small.jpg"><img src="images/lechienfantome-starfish-small.jpg" alt=""/></a>
         </li>
         <li>
             <a title="" data-fslightbox href="images/chloe-paolacci-image-1-big.jpg"><img src="images/chloe-paolacci-image-1.jpg" alt=""/></a>

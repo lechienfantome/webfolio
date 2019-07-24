@@ -4,7 +4,7 @@
     text-align: center;
     background-color: #9dfff0; background-image: url(../../../images/pinstripe-white.svg);
     background-attachment: fixed;
-    padding: 5vh 0;
+    padding: 5vh 5vh;
 }
 
 @media all and (min-width:1200px) {
